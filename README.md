@@ -1,4 +1,4 @@
-# Async Net Experiment
+# Async Net Program
 
 [![Rust](https://img.shields.io/badge/rust-1.70+-blue.svg)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -14,7 +14,7 @@ The server listens on `127.0.0.1:8080` and echoes back any data it receives from
 - Async TCP server and client
 - A custom async runtime (built from scratch, no Tokio!!!)
 - Concurrent client handling with threads
-- Echo and ping functionality
+- Echo and ping funcs
 
 ## How to Run
 
@@ -26,5 +26,6 @@ The server listens on `127.0.0.1:8080` and echoes back any data it receives from
 6. Type messages in the client terminal and see them echoed back, with periodic pings.
 
 ## License
+
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
